@@ -24,13 +24,13 @@ $(function () {
         //Exec order function
         //Execute order function
         .let,'newOrder' = order(flavour, size, crust, topping, number, totalPrice)
-        console.log (newOrder); // test func
+        console.log (newOrder) // test func
 
         //create a new object
         // let myOrder = JSON.stringify(JSON.parse(newOrder));
 
         //Write to the order
-        $('.summary').slideDown(2000);
+        $('#summary').slideDown(2000);
         $('#list').text(" ");
         $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
 -390,7 +394,24
@@ -56,6 +56,6 @@ $(function () {
     });
 
     //Scrollify
-    $(function {
+    $function {
         $.scrollify.move('#sum-order');
     }

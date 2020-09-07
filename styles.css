@@ -82,49 +82,36 @@ inputtype email {
     outline: none !important;
     font-size :14px;
 }
-.click-me{
-
 .click-me {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.get-pizza{
-
 .get-pizza {
     margin-top: 40px;
 }
-.contact{
-
 .contact {
     padding-top: 20px;
 }
-.click-me, button[type=submit] {
-
 .cdata {
     margin-top: 20px;
     margin-bottom: 15px;
 }
-
 .data {
     height: inherit;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
 }
-
 .go {
     border-radius: 20px;
 }
-
 .click-me, button[type=submit], .deliver, .delivernot {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-@@ -114,7 +140,12 @@ input[type="email"] {
+input[type="email"] {
     border-radius: 33px;
     font-size: 14px;
 }
-h4{
-
 .deliver, .delivernot {
     margin: 10px;
 }
@@ -133,18 +120,13 @@ h4 {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-@@ -132,13 +163,16 @@ h4{
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 20px;
 }
-.checkout{
-
 .checkout {
     border-radius: 20px;
     margin-top: 20px;
 }
-#list{
-
 #list {
     color: #000;
 }
@@ -152,17 +134,15 @@ h4 {
 .pizz {
     color: lawngreen;
 }
-@@ -210,7 +244,8 @@ figure img {
+figure img {
     color: black;
     font-size: 23px;
 }
-.txt-big{
-
 .txt-big {
     font-size: 50px;
     font-family: 'Shadows Into Light', cursive;
 }
-@@ -222,13 +257,16 @@ figure img {
+img {
     height: 400px;
     width: 400px;
 }
@@ -170,8 +150,6 @@ h4 {
 .welcome {
     padding-top: 30px;
 }
-.rads{
-
 .rads {
     display: flex;
     flex-wrap: wrap;
@@ -180,14 +158,10 @@ h4 {
 .fab {
     margin: 60px 15px 0 15px;
 }
-@@ -281,6 +319,10 @@ figure img {
+figure img {
         padding-top: 10px;
     }
-
-    .cdata {
+.cdata {
         padding: 10px 5px 10px 5px;
     }
-
-}
-
-media (min-width: 800px) and (max-width: 850px) {
+media(min-width: 800px) and (max-width: 850px) {
