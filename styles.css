@@ -20,7 +20,7 @@ body {
     float: right;
 }
 .exc {
-    color: yellow;
+    color: rgb(255, 38, 0);
 }
 #piz-pap {
     font-family: 'Shadows Into Light', cursive;
