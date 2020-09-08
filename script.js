@@ -6,13 +6,13 @@ $(function () {
         let flavour = $(".flavour option:selected").val();
 -11,7 +12,7(function () {
 
-        //Function order
+        Function-order
         let order = (f, s, c, t, n, total) => {
             return {f, s, c, t, n, total };
             return {f, s, c, t, n, total};
         };
 
-        //check price
+        check-price
         let price, totalPrice;
         switch (flavour) {
             case flavour = "vegtikka":
@@ -398,13 +398,9 @@ $(function () {
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();
     });
-
-
     //Pick Up
     $(".delivernot").click(function () {
-
     });
-
     //Scrollify
     (function (){
         $.scrollify.move('#sum-order')
