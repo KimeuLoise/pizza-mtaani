@@ -1,188 +1,151 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
-
-Shadows Into Light, cursive
-*
 * {
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    color: #ffffff;
-}
-#spantext {
-    color: yellow;
-}
-.navi {
+
+li {
     float: right;
 }
-.exc {
-    color: rgb(255, 38, 0);
+
+nav a {
+    padding: 2px;
+
 }
-#piz-pap {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 35px;
-    font-weight: normal;
-    color: darkorange;
-}
+
 li {
+    background-color: burlywood;
     display: inline;
     margin-right: 20px;
 }
+
 .h-buttons {
-    margin-top: 90px;
+    margin-top: 450px;
     margin-bottom: 100px;
 }
+
 .h-buttons button {
     border-radius: 40px;
     color: black;
 }
-.menu-btn {
-    border-radius: 20px;
-    margin-top: 20px;
-    color: #000;
-}
-figcaption{
 
-fig-caption {
-    font-family:Oswald, serif;
+.intro {
+    background-image: url(../images/pizza4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 620px;
+    text-align: right;
+    color: white;
 }
 
-#menu {
-    padding-top: 20px;
+.text-center p {
+    margin-top: 300px;
 }
+
+#spantext {
+    color: yellow;
+}
+
+.exc {
+    color: yellow;
+}
+
+#piz-pap {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: black;
+}
+
 #order-pizza {
     color: #000;
 }
+
+.order {
+    background-color: black;
+}
+
 #list li {
     font-size: 24px;
     font-family: system-ui, serif;
 }
-.order-summary h1, .summary, .contact {
+
+.order-summary h1,
+.summary,
+.contact {
     color: #000;
     font-family: 'Love Ya Like A Sister', cursive;
     margin-top: 30px;
 }
-.contacts {
-    background-image: url("../images/sec/b1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.contact-overlay {
-    height: inherit;
-    background-color: rgba(0,0,0,0.7);
-    background-color: rgba(0, 0, 0, 0.7);
-}
 
-input[type="email"] {
-    background: transparent;
-    border: 1px solid #ffffff;
-inputtype-email {
-    outline: none !important;
-    font-size :14px;
-}
-.click-me {
+.col-space {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.get-pizza {
-    margin-top: 40px;
-}
-.contact {
-    padding-top: 20px;
-}
-.cdata {
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-.data {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-}
-.go {
-    border-radius: 20px;
-}
-.click-me, button[type=submit], .deliver, .delivernot {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-input[type="email"] {
-    border-radius: 33px;
-    font-size: 14px;
-}
-.deliver, .delivernot {
-    margin: 10px;
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
-h4 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 20px;
-}
-.checkout {
-    border-radius: 20px;
-    margin-top: 20px;
-}
-#list {
-    color: #000;
+.menu {
+    height: 300px;
 }
 
-.pizz {
-    color: lawngreen;
-}
-figure img {
-    color: black;
-    font-size: 23px;
-}
-.txt-big {
-    font-size: 50px;
-    font-family: 'Shadows Into Light', cursive;
-}
-img {
-    height: 400px;
-    width: 400px;
+.customerdata {
+    display: none;
 }
 
-.welcome {
-    padding-top: 30px;
-}
-.rads {
-    display: flex;
-    flex-wrap: wrap;
+.contact>h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 25px;
 }
 
-.fab {
-    margin: 60px 15px 0 15px;
+#form1,
+#form2,
+#form3 {
+    background-color: transparent;
 }
-figure img {
-        padding-top: 10px;
-    }
-.cdata {
-        padding: 10px 5px 10px 5px;
-    }
-media(min-width: 800px) and (max-width: 850px) {
-    @media (min-width: 800px) and (max-width: 850px) {
-        html,
-        body,
-        header,
-        .view {
-            height: 650px;
-        }
-        .piz-pap {
-            font-size: 50px;
-        }
-        ul > .nav-items {
-            display: inline;
-            margin-right: 20px;
-            margin-left: 12px;
-        }
-    @media (max-width: 991px) {
-        .navbar:not(.top-nav-collapse) {
-            background: #3f51b5 !important;
-        }
+
+textarea {
+    width: 100%;
+    height: 200px;
+    color: white;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#sayhi ::placeholder {
+    color: white;
+}
+
+#sayhi input {
+    color: white;
+    background-color: transparent;
+}
+
+.finalAmount,
+.delivery-cost {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.hidden {
+    display: none;
+}
+
+.checkout-options,
+.location {
+    background: rgb(255, 0, 234);
+    padding: 20px;
+    width: 80%;
+    height: 60vh;
+}
