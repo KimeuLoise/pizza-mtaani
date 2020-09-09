@@ -8,7 +8,7 @@ Pizza Mtaani is a Kenyan local based fast food cafe that offers affordable and m
 </tr>
 </table>
 ## Demo
-Here is a working live demo :  https://github.com/KimeuLoise/pizza-mtaani
+Here is a working live demo : https://github.com/KimeuLoise/pizza-mtaani.git 
 ## Mobile support
 The pizza-Mtaani is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 ## [Usage](https://github.com/KimeuLoise/pizza-mtaani)
